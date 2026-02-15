@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:E8E8E8,50:D3D3D3,100:C0C0C0&height=200&section=header&text=Orlando&fontSize=50&fontColor=1a1a1a&animation=fadeIn&fontAlignY=35" alt="header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:E8E8E8,50:D3D3D3,100:C0C0C0&height=200&section=header&text=I'm%20Orlando!&fontSize=50&fontColor=1a1a1a&animation=fadeIn&fontAlignY=35" alt="header"/>
 </div>
 
 <div align="center">
@@ -130,15 +130,16 @@ const orlando = {
   <table>
     <tr>
       <td width="50%">
-        <h3 align="center">Task Manager - Fullstack</h3>
+        <h3 align="center">E-Commerce Admin Dashboard</h3>
         <div align="center">
-          <a href="https://github.com/OrlandoGalvanVargas/task-manager" target="_blank">
-            <img src="https://github-readme-stats.vercel.app/api/pin/?username=OrlandoGalvanVargas&repo=task-manager&theme=react&hide_border=true&bg_color=0D1117" alt="Task Manager"/>
+          <a href="https://github.com/OrlandoGalvanVargas/ecommerce-admin-dashboard" target="_blank">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=OrlandoGalvanVargas&repo=task-manager&theme=react&hide_border=true&bg_color=0D1117" alt="Dashboard"/>
           </a>
           <br/>
           <p>
-            <strong>React • ASP.NET Core • SQL Server</strong><br/>
-            Complete CRUD system with authentication, categories, and real-time updates
+            <strong>React • ASP.NET Core • SQL Server • JWT</strong><br/>
+Full-featured admin panel for e-commerce management with authentication, 
+  product catalog, order tracking, and real-time analytics
           </p>
         </div>
       </td>
@@ -150,8 +151,8 @@ const orlando = {
           </a>
           <br/>
           <p>
-            <strong>React • Tailwind CSS</strong><br/>
-            Personal portfolio showcasing projects and skills
+            <strong>React • Tailwind CSS • Framer Motion</strong><br/>
+  Personal portfolio showcasing my projects, skills, and professional journey
           </p>
         </div>
       </td>
