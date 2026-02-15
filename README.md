@@ -117,10 +117,9 @@ const orlando = {
 <br/>
 
 <div align="center">
-  <h2>📈 Contribution Graph</h2>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=OrlandoGalvanVargas&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_border=true" alt="Contribution Graph"/>
+  <h2>📊 GitHub Stats</h2>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=OrlandoGalvanVargas&theme=react&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
 </div>
-
 <br/>
 
 <div align="center">
