@@ -96,7 +96,7 @@ const orlando = {
       <p>
         • Building fullstack projects with React & .NET<br/>
         • Mastering Entity Framework Core<br/>
-        • Implementing clean architecture<br/>
+        • Implementing Clean Architecture<br/>
         • Practicing data structures & algorithms<br/>
         • Contributing to open source
       </p>
