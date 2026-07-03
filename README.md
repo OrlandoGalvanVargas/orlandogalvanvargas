@@ -130,16 +130,16 @@ const orlando = {
   <table>
     <tr>
       <td width="50%">
-        <h3 align="center">E-Commerce Admin Dashboard</h3>
+        <h3 align="center">RH Plus — Sistema de Recursos Humanos</h3>
         <div align="center">
-          <a href="https://github.com/OrlandoGalvanVargas/ecommerce-admin-dashboard" target="_blank">
-            <img src="https://github-readme-stats.vercel.app/api/pin/?username=OrlandoGalvanVargas&repo=task-manager&theme=react&hide_border=true&bg_color=0D1117" alt="Dashboard"/>
+          <a href="https://github.com/OrlandoGalvanVargas/react-rrhh-plus-" target="_blank">
+            <img src="./assets/dashboard-rh.png" alt="RH Plus" width="100%" style="border-radius: 8px;"/>
           </a>
           <br/>
           <p>
-            <strong>React • ASP.NET Core • SQL Server • JWT</strong><br/>
-Full-featured admin panel for e-commerce management with authentication, 
-  product catalog, order tracking, and real-time analytics
+            <strong>React • Vite • Tailwind CSS • REST API • JWT</strong><br/>
+            Sistema web para la gestión integral de Recursos Humanos: administración de empleados, control de asistencias, evaluaciones de desempeño y procesos de reclutamiento.<br/>
+            <a href="https://system-rrhh-plus.netlify.app/" target="_blank">🔗 Ver demo en vivo</a>
           </p>
         </div>
       </td>
