@@ -16,30 +16,25 @@
 
 <div align="center">
   <h2>👨‍💻 About Me</h2>
+
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=1500&pause=400&color=2C5F8D&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=110&lines=Hey%2C+soy+Orlando+%F0%9F%91%8B;Fullstack+Developer+desde+M%C3%A9xico+%F0%9F%87%B2%F0%9F%87%BD;Construyo+apps+web+escalables+con+React+%2B+.NET;Abierto+a+roles+Junior%2FMid+%F0%9F%9A%80" alt="Typing intro"/>
 </div>
 
-```javascript
-const orlando = {
-    location: "México",
-    role: "Fullstack Developer",
-    currentFocus: "Building scalable web applications",
-    learning: ["Advanced React patterns", "C# design patterns", "System architecture"],
-    interests: ["Clean code", "Software architecture", "Open source"],
-    availableFor: "Junior/Mid-level Fullstack positions",
-    
-    workingOn: () => {
-        return [
-            "Fullstack projects with React + .NET",
-            "Improving code quality and best practices",
-            "Contributing to open source"
-        ];
-    },
-    
-    dailyRoutine: () => {
-        console.log("Code, Learn, Build, Repeat");
-    }
-};
-```
+<br/>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/📍_M%C3%A9xico-2C5F8D?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/🎯_Scalable_Web_Apps-58A6FF?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/🟢_Open_to_Work-4CAF50?style=for-the-badge"/>
+</div>
+
+<br/>
+
+<div align="center">
+  <marquee behavior="scroll" direction="left" scrollamount="10">
+    ⚡ Advanced React patterns &nbsp;&nbsp;•&nbsp;&nbsp; 🏗️ C# design patterns &nbsp;&nbsp;•&nbsp;&nbsp; 🧩 System architecture &nbsp;&nbsp;•&nbsp;&nbsp; 🧹 Clean Code &nbsp;&nbsp;•&nbsp;&nbsp; 🌍 Open Source &nbsp;&nbsp;•&nbsp;&nbsp; 🔁 Code · Learn · Build · Repeat &nbsp;&nbsp;•&nbsp;&nbsp;
+  </marquee>
+</div>
 
 <br/>
 
