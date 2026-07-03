@@ -144,15 +144,17 @@ const orlando = {
         </div>
       </td>
       <td width="50%">
-        <h3 align="center">Portfolio Website</h3>
+        <h3 align="center">LF Schools</h3>
         <div align="center">
-          <a href="https://github.com/OrlandoGalvanVargas/portfolio" target="_blank">
-            <img src="https://github-readme-stats.vercel.app/api/pin/?username=OrlandoGalvanVargas&repo=portfolio&theme=react&hide_border=true&bg_color=0D1117" alt="Portfolio"/>
+          <a href="https://github.com/OrlandoGalvanVargas/lf-schools" target="_blank">
+            <img src="./assets/lf-schools.png" alt="LF Schools" width="100%" style="border-radius: 8px;"/>
           </a>
           <br/>
           <p>
-            <strong>React • Tailwind CSS • Framer Motion</strong><br/>
-  Personal portfolio showcasing my projects, skills, and professional journey
+            <strong>React • Ant Design • REST API</strong><br/>
+            Plataforma de gestión escolar para la administración de estudiantes, personal docente, escuelas y distritos, con seguimiento de viajes mediante beacons y notificaciones a padres por SMS, voz y correo.
+            <br/>
+            <a href="https://lf-schools.netlify.app/" target="_blank">🔗 Ver demo en vivo</a>
           </p>
         </div>
       </td>
