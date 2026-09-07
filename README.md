@@ -128,7 +128,7 @@
         <h3 align="center">RH Plus — Sistema de Recursos Humanos</h3>
         <div align="center">
           <a href="https://github.com/OrlandoGalvanVargas/react-rrhh-plus-" target="_blank">
-            <img src="./assets/dashboard-rh.png" alt="RH Plus" width="100%" style="border-radius: 8px;"/>
+            <img src="./assets/dashboard-rh.gif" alt="RH Plus Demo" width="100%" style="border-radius: 8px;"/>
           </a>
           <br/>
           <p>
