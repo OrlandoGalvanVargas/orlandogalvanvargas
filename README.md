@@ -139,17 +139,16 @@
         </div>
       </td>
       <td width="50%">
-        <h3 align="center">LF Schools</h3>
+        <h3 align="center">FacilityOS</h3>
         <div align="center">
-          <a href="https://github.com/OrlandoGalvanVargas/lf-schools" target="_blank">
-            <img src="./assets/lf-schools.png" alt="LF Schools" width="100%" style="border-radius: 8px;"/>
+          <a href="https://github.com/OrlandoGalvanVargas/facilityos" target="_blank">
+            <img src="./assets/facilityos.gif" alt="FacilityOS Demo" width="100%" style="border-radius: 8px;"/>
           </a>
           <br/>
           <p>
-            <strong>React • Ant Design • REST API</strong><br/>
-            Plataforma de gestión escolar para la administración de estudiantes, personal docente, escuelas y distritos, con seguimiento de viajes mediante beacons y notificaciones a padres por SMS, voz y correo.
-            <br/>
-            <a href="https://lf-schools.netlify.app/" target="_blank">🔗 Ver demo en vivo</a>
+            <strong>.NET 10 • Clean Architecture • React • Ant Design • CI/CD</strong><br/>
+            Plataforma Full-Stack para gestión de instalaciones e infraestructuras. Implementa autenticación JWT, FluentValidation, MediatR y pipeline automatizado con GitHub Actions y Cloudflare Pages.<br/>
+            <a href="https://9caeeece.facilityos-9er.pages.dev" target="_blank">🔗 Ver demo en vivo</a>
           </p>
         </div>
       </td>
