@@ -125,16 +125,16 @@
   <table>
     <tr>
       <td width="50%">
-        <h3 align="center">RH Plus — Sistema de Recursos Humanos</h3>
+        <h3 align="center">RH Plus</h3>
         <div align="center">
           <a href="https://github.com/OrlandoGalvanVargas/react-rrhh-plus-" target="_blank">
             <img src="./assets/dashboard-rh.gif" alt="RH Plus Demo" width="100%" style="border-radius: 8px;"/>
           </a>
           <br/>
           <p>
-            <strong>React • Vite • Tailwind CSS • REST API • JWT</strong><br/>
-            Sistema web para la gestión integral de Recursos Humanos: administración de empleados, control de asistencias, evaluaciones de desempeño y procesos de reclutamiento.<br/>
-            <a href="https://system-rrhh-plus.netlify.app/" target="_blank">🔗 Ver demo en vivo</a>
+<strong>React • Vite • Tailwind CSS • REST API • JWT</strong><br/>
+Full-stack HR management system: employee administration, attendance tracking, performance evaluations, and recruitment workflows.<br/>
+<a href="https://system-rrhh-plus.netlify.app/" target="_blank">🔗 Live demo</a>
           </p>
         </div>
       </td>
@@ -146,9 +146,9 @@
           </a>
           <br/>
           <p>
-            <strong>.NET 10 • Clean Architecture • React • Ant Design • CI/CD</strong><br/>
-            Plataforma Full-Stack para gestión de instalaciones e infraestructuras. Implementa autenticación JWT, FluentValidation, MediatR y pipeline automatizado con GitHub Actions y Cloudflare Pages.<br/>
-            <a href="https://9caeeece.facilityos-9er.pages.dev" target="_blank">🔗 Ver demo en vivo</a>
+          <strong>.NET 10 • Clean Architecture • React • Ant Design • CI/CD</strong><br/>
+Multi-tenant platform for managing educational facilities: districts, schools, staff, and emergency security beacons with role-based access control.<br/>
+<a href="https://9caeeece.facilityos-9er.pages.dev" target="_blank">🔗 Live demo</a>
           </p>
         </div>
       </td>
