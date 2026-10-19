@@ -40,42 +40,28 @@
 
 <div align="center">
   <h2>🛠️ Tech Stack</h2>
-  
-  <h3>Languages</h3>
-  <p>
-    <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#"/>
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
-    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
-    <img src="https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin"/>
-  </p>
-  
-  <h3>Frameworks & Libraries</h3>
-  <p>
-    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
-    <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET"/>
-    <img src="https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="ASP.NET Core"/>
-    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind"/>
-    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
-  </p>
-  
-  <h3>Databases</h3>
-  <p>
-    <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL Server"/>
-    <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
-    <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
-    <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase"/>
-  </p>
-  
-  <h3>Tools & DevOps</h3>
-  <p>
-    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-    <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
-    <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white" alt="Visual Studio"/>
-    <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman"/>
-  </p>
+<table>
+  <tr>
+    <td width="120"><sub><b>BACKEND</b></sub></td>
+    <td><img alt="Backend" src="https://skillicons.dev/icons?i=cs,dotnet,java,spring,nodejs&theme=dark" height="40"></td>
+  </tr>
+  <tr>
+    <td><sub><b>FRONTEND</b></sub></td>
+    <td><img alt="Frontend" src="https://skillicons.dev/icons?i=react,js,html,css,tailwind,vite,astro&theme=dark" height="40"></td>
+  </tr>
+  <tr>
+    <td><sub><b>MOBILE</b></sub></td>
+    <td><img alt="Mobile" src="https://skillicons.dev/icons?i=kotlin,androidstudio&theme=dark" height="40"></td>
+  </tr>
+  <tr>
+    <td><sub><b>DATA</b></sub></td>
+    <td><img alt="Data" src="https://skillicons.dev/icons?i=mysql,mongodb,firebase&theme=dark" height="40">&nbsp;&nbsp;<code>SQL Server</code></td>
+  </tr>
+  <tr>
+    <td><sub><b>TOOLING</b></sub></td>
+    <td><img alt="Tooling" src="https://skillicons.dev/icons?i=git,github,githubactions,docker,cloudflare,netlify,visualstudio,vscode,postman&theme=dark" height="40"></td>
+  </tr>
+</table>
 </div>
 
 <br/>
