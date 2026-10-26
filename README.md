@@ -1,45 +1,67 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:E8E8E8,50:D3D3D3,100:C0C0C0&height=200&section=header&text=I'm%20Orlando!&fontSize=50&fontColor=1a1a1a&animation=fadeIn&fontAlignY=35" alt="header"/>
-</div>
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=2C5F8D&center=true&vCenter=true&multiline=false&width=600&lines=Fullstack+Developer;Building+Scalable+Web+Solutions;React+%7C+C%23+%7C+SQL+Server;Always+Learning%2C+Always+Building" alt="Typing SVG" />
-</div>
-
-<br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg">
+  <img alt="Orlando Galván — Fullstack Developer" src="./assets/header-dark.svg" width="100%">
+</picture>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=OrlandoGalvanVargas&label=Profile%20Views&color=2C5F8D&style=flat-square" alt="Profile Views"/>
+  <a href="https://darmixista.dev"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-darmixista.dev-2C5F8D?style=flat-square&labelColor=161B22"></a>
+  <a href="https://www.linkedin.com/in/orlandogalvan-dev"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-orlandogalvan--dev-2C5F8D?style=flat-square&labelColor=161B22"></a>
+  <a href="mailto:orlando.gal.var.05@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-orlando.gal.var.05@gmail.com-2C5F8D?style=flat-square&labelColor=161B22"></a>
+  <img alt="Status" src="https://img.shields.io/badge/Status-Open_to_work-2EA043?style=flat-square&labelColor=161B22">
 </p>
 
-<br/>
+<p align="center">
+  <img alt="Typing" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=3200&pause=1400&color=5B8DBA&center=true&vCenter=true&width=640&lines=Designing+systems+that+last.;Clean+Architecture+%C2%B7+Scalable+APIs+%C2%B7+Thoughtful+UX.;Turning+manual+processes+into+reliable+software.">
+</p>
 
-<div align="center">
-  <h2>👨‍💻 About Me</h2>
+<br>
 
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=1500&pause=400&color=2C5F8D&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=110&lines=Hey%2C+I'm+Orlando+%F0%9F%91%8B;Fullstack+Developer+based+in+Mexico+%F0%9F%87%B2%F0%9F%87%BD;Building+scalable+web+apps+with+React+%2B+.NET;Open+to+Junior%2FMid+roles" alt="Typing intro"/>
-</div>
+### About
 
-<br/>
+I'm a fullstack developer from Mexico focused on **modernizing and automating processes** with software built for the long run: solid architecture, maintainable code and interfaces that feel considered. I dig into the full context of a problem before writing a line, and I care about the details — in the code, the documentation and the UX.
 
-<div align="center">
-  <img src="https://img.shields.io/badge/📍_Mexico-2C5F8D?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/🎯_Scalable_Web_Apps-58A6FF?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/🟢_Open_to_Work-4CAF50?style=for-the-badge"/>
-</div>
+```csharp
+public sealed record Developer
+{
+    public string   Name       { get; } = "Orlando Galván Vargas";
+    public string   Alias      { get; } = "Darmix";
+    public string   Role       { get; } = "Fullstack Developer";
+    public string   Location   { get; } = "Estado de México, MX";
+    public string   Education  { get; } = "B.Eng. Software Development & Management";
+    public string[] Stack      { get; } = ["React", "ASP.NET Core", "SQL Server", "Kotlin"];
+    public string[] Focus      { get; } = ["Clean Architecture", "Scalable APIs", "Automation"];
+    public bool     OpenToWork { get; } = true;
+}
+```
 
-<br/>
+<br>
 
-<div align="center">
-  <marquee behavior="scroll" direction="left" scrollamount="10">
-    ⚡ Advanced React patterns &nbsp;&nbsp;•&nbsp;&nbsp; 🏗️ C# design patterns &nbsp;&nbsp;•&nbsp;&nbsp; 🧩 System architecture &nbsp;&nbsp;•&nbsp;&nbsp; 🧹 Clean Code &nbsp;&nbsp;•&nbsp;&nbsp; 🌍 Open Source &nbsp;&nbsp;•&nbsp;&nbsp; 🔁 Code · Learn · Build · Repeat &nbsp;&nbsp;•&nbsp;&nbsp;
-  </marquee>
-</div>
+### Experience
 
-<br/>
+<table>
+  <tr>
+    <td width="72%">
+      <b>Fullstack Developer</b> · Professional Internship<br>
+      <sub>LiveFree Emergency Response · United States</sub><br>
+      <sub>Features across a React frontend and an ASP.NET Core + SQL Server backend.</sub>
+    </td>
+    <td align="right"><sub>Oct 2025 — Apr 2026</sub></td>
+  </tr>
+  <tr>
+    <td>
+      <b>Mobile Developer</b><br>
+      <sub>SITelecom · Mexico</sub><br>
+      <sub>Native Kotlin app used by field crews in day-to-day operations.</sub>
+    </td>
+    <td align="right"><sub>2022</sub></td>
+  </tr>
+</table>
 
-<div align="center">
-  <h2>🛠️ Tech Stack</h2>
+<br>
+
+### Tech Stack
+
 <table>
   <tr>
     <td width="120"><sub><b>BACKEND</b></sub></td>
@@ -62,125 +84,56 @@
     <td><img alt="Tooling" src="https://skillicons.dev/icons?i=git,github,githubactions,docker,cloudflare,netlify,visualstudio,vscode,postman&theme=dark" height="40"></td>
   </tr>
 </table>
-</div>
 
-<br/>
+<br>
 
-<div align="center">
-  <h2>🚀 What I'm Up To</h2>
-</div>
+### Featured Projects
 
-<table align="center">
+<table>
   <tr>
-    <td align="center" width="50%">
-      <h3>🎯 Current Focus</h3>
-      <p>
-        • Building fullstack projects with React & .NET<br/>
-        • Mastering Entity Framework Core<br/>
-        • Implementing Clean Architecture<br/>
-        • Practicing data structures & algorithms<br/>
-        • Contributing to open source
-      </p>
+    <td width="50%" valign="top">
+      <a href="https://github.com/OrlandoGalvanVargas/facilityos"><img alt="FacilityOS" src="./assets/facilityos.gif" width="100%"></a>
+      <h4>FacilityOS</h4>
+      <p>Multi-tenant platform for educational facilities — districts, schools, staff and emergency security beacons with role-based access control.</p>
+      <p><sub><code>.NET 10</code> <code>Clean Architecture</code> <code>React</code> <code>Ant Design</code> <code>CI/CD</code></sub></p>
+      <p><a href="https://9caeeece.facilityos-9er.pages.dev"><b>Live demo</b></a> &nbsp;·&nbsp; <a href="https://github.com/OrlandoGalvanVargas/facilityos">Source</a></p>
     </td>
-    <td align="center" width="50%">
-      <h3>📚 Learning</h3>
-      <p>
-        • Advanced React patterns (Context, Hooks)<br/>
-        • ASP.NET Core Web APIs<br/>
-        • SQL Server optimization<br/>
-        • Docker containerization<br/>
-        • System design fundamentals
-      </p>
+    <td width="50%" valign="top">
+      <a href="https://github.com/OrlandoGalvanVargas/react-rrhh-plus-"><img alt="RH Plus" src="./assets/dashboard-rh.gif" width="100%"></a>
+      <h4>RH Plus</h4>
+      <p>Human-resources management system — employee administration, attendance tracking, performance reviews and recruitment workflows.</p>
+      <p><sub><code>React</code> <code>Vite</code> <code>Tailwind CSS</code> <code>REST API</code> <code>JWT</code></sub></p>
+      <p><a href="https://system-rrhh-plus.netlify.app/"><b>Live demo</b></a> &nbsp;·&nbsp; <a href="https://github.com/OrlandoGalvanVargas/react-rrhh-plus-">Source</a></p>
     </td>
   </tr>
 </table>
 
-<br/>
+<p align="right"><a href="https://darmixista.dev"><sub>More work on darmixista.dev →</sub></a></p>
 
-<div align="center">
-  <h2>📊 GitHub Stats</h2>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=OrlandoGalvanVargas&theme=react&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
-</div>
-<br/>
+<br>
 
-<div align="center">
-  <h2>💼 Featured Projects</h2>
-</div>
+### Activity
 
-<div align="center">
-  <table>
-    <tr>
-      <td width="50%">
-        <h3 align="center">RH Plus</h3>
-        <div align="center">
-          <a href="https://github.com/OrlandoGalvanVargas/react-rrhh-plus-" target="_blank">
-            <img src="./assets/dashboard-rh.gif" alt="RH Plus Demo" width="100%" style="border-radius: 8px;"/>
-          </a>
-          <br/>
-          <p>
-<strong>React • Vite • Tailwind CSS • REST API • JWT</strong><br/>
-Full-stack HR management system: employee administration, attendance tracking, performance evaluations, and recruitment workflows.<br/>
-<a href="https://system-rrhh-plus.netlify.app/" target="_blank">🔗 Live demo</a>
-          </p>
-        </div>
-      </td>
-      <td width="50%">
-        <h3 align="center">FacilityOS</h3>
-        <div align="center">
-          <a href="https://github.com/OrlandoGalvanVargas/facilityos" target="_blank">
-            <img src="./assets/facilityos.gif" alt="FacilityOS Demo" width="100%" style="border-radius: 8px;"/>
-          </a>
-          <br/>
-          <p>
-          <strong>.NET 10 • Clean Architecture • React • Ant Design • CI/CD</strong><br/>
-Multi-tenant platform for managing educational facilities: districts, schools, staff, and emergency security beacons with role-based access control.<br/>
-<a href="https://9caeeece.facilityos-9er.pages.dev" target="_blank">🔗 Live demo</a>
-          </p>
-        </div>
-      </td>
-    </tr>
-  </table>
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=OrlandoGalvanVargas&hide_border=true&background=00000000&ring=7AA2C8&fire=7AA2C8&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=7AA2C8&sideLabels=8B949E&dates=8B949E&stroke=30363D">
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=OrlandoGalvanVargas&hide_border=true&background=00000000&ring=2C5F8D&fire=2C5F8D&currStreakNum=1F2328&sideNums=1F2328&currStreakLabel=2C5F8D&sideLabels=57606A&dates=57606A&stroke=D0D7DE">
+    <img alt="GitHub streak" src="https://streak-stats.demolab.com?user=OrlandoGalvanVargas&hide_border=true&background=00000000&ring=7AA2C8&fire=7AA2C8">
+  </picture>
+</p>
 
-<br/>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/OrlandoGalvanVargas/OrlandoGalvanVargas/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/OrlandoGalvanVargas/OrlandoGalvanVargas/output/github-snake.svg">
+    <img alt="Contribution graph animation" src="https://raw.githubusercontent.com/OrlandoGalvanVargas/OrlandoGalvanVargas/output/github-snake-dark.svg" width="100%">
+  </picture>
+</p>
 
-<div align="center">
-  <h2>🤝 Let's Connect</h2>
-  
-  <a href="https://www.linkedin.com/in/orlandogalvan-dev" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:orlando.gal.var.05@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://github.com/OrlandoGalvanVargas" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-</div>
+<br>
 
-<br/>
+<p align="center">
+  <i>Success isn't a destination; it's a continuous journey.<br>Build with patience, grow through resilience — and when you reach the end, create a new path.</i>
+</p>
 
-<div align="center">
-  <h2>💭 My Philosophy</h2>
-  <table>
-    <tr>
-      <td>
-        <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=Success%20isn%27t%20a%20destination%3B%20it%27s%20a%20continuous%20journey.%20Build%20with%20patience%2C%20grow%20through%20resilience%2C%20and%20when%20you%20reach%20the%20end...%20create%20a%20new%20path.&author=Orlando%20Galvan" alt="Philosophy"/>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:E8E8E8,50:D3D3D3,100:C0C0C0&height=120&section=footer" alt="footer"/>
-</div>
-
----
-
-<div align="center">
-  <h3>
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Thanks+for+visiting!+%F0%9F%99%8F" alt="Footer Typing"/>
-  </h3>
-</div>
+<p align="center"><sub>Orlando Galván · <a href="https://darmixista.dev">darmixista.dev</a></sub></p>
