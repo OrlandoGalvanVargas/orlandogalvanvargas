@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Orlando Galván — Fullstack Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F6F8FA"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.775" cy="0.5" r="0.42">
+      <stop offset="0" stop-color="#2C5F8D" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#2C5F8D" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8C959F" stop-opacity="0.95"/>
+      <stop offset="0.5" stop-color="#2C5F8D" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#8C959F" stop-opacity="0.12"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1F2328"/>
+      <stop offset="1" stop-color="#3D5A78"/>
+    </linearGradient>
+    <linearGradient id="fadeR" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="0.35" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#000000" stroke-opacity="0.04"/>
+    </pattern>
+    <clipPath id="frame">
+      <rect width="1200" height="340" rx="20"/>
+    </clipPath>
+  </defs>
+  <style>
+    .orbit { transform-box: view-box; transform-origin: 930px 170px; }
+    .o1 { animation: spin 38s linear infinite; }
+    .o2 { animation: spin 54s linear infinite reverse; }
+    .o3 { animation: spin 72s linear infinite; }
+    .core { transform-box: view-box; transform-origin: 930px 170px; animation: pulse 4.5s ease-in-out infinite; }
+    .in { animation: rise 1s cubic-bezier(.2,.7,.2,1) both; }
+    .d1 { animation-delay: .1s; }
+    .d2 { animation-delay: .3s; }
+    .d3 { animation-delay: .5s; }
+    .d4 { animation-delay: .7s; }
+    .d5 { animation-delay: .9s; }
+    .blink { animation: blink 2.4s ease-in-out infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes pulse { 0%, 100% { transform: scale(1); opacity: .9; } 50% { transform: scale(1.18); opacity: 1; } }
+    @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: .35; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+    <rect width="1200" height="340" fill="url(#grid)"/>
+    <rect width="1200" height="340" fill="url(#glow)"/>
+
+    <g class="orbit o3">
+      <ellipse cx="930" cy="170" rx="236" ry="74" fill="none" stroke="url(#ring)" stroke-width="1" stroke-opacity=".55" transform="rotate(-28 930 170)"/>
+      <circle cx="1144" cy="70" r="3" fill="#8C959F" opacity=".8"/>
+    </g>
+    <g class="orbit o2">
+      <ellipse cx="930" cy="170" rx="176" ry="58" fill="none" stroke="url(#ring)" stroke-width="1.4" transform="rotate(34 930 170)"/>
+      <circle cx="785" cy="74" r="4" fill="#2C5F8D"/>
+    </g>
+    <g class="orbit o1">
+      <ellipse cx="930" cy="170" rx="118" ry="118" fill="none" stroke="url(#ring)" stroke-width="1.2" stroke-dasharray="2 9" stroke-linecap="round"/>
+      <circle cx="1048" cy="170" r="3.5" fill="#8C959F"/>
+    </g>
+    <g class="orbit o2">
+      <ellipse cx="930" cy="170" rx="74" ry="24" fill="none" stroke="#2C5F8D" stroke-width="1" stroke-opacity=".7" transform="rotate(-62 930 170)"/>
+    </g>
+    <circle cx="930" cy="170" r="30" fill="#2C5F8D" opacity=".08"/>
+    <circle class="core" cx="930" cy="170" r="9" fill="#2C5F8D"/>
+    <circle cx="930" cy="170" r="3" fill="#8C959F"/>
+
+    <rect width="1200" height="340" fill="url(#fadeR)"/>
+
+    <g class="in d1">
+      <rect x="80" y="83" width="28" height="2" rx="1" fill="#2C5F8D"/>
+      <text x="120" y="90" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', monospace" font-size="14" letter-spacing="5" fill="#2C5F8D">DARMIXISTA</text>
+    </g>
+    <text class="in d2" x="78" y="164" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="600" letter-spacing="-1.5" fill="url(#name)">Orlando Galván</text>
+    <text class="in d3" x="80" y="206" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#424A53">Fullstack Developer — building software that lasts</text>
+    <text class="in d4" x="80" y="244" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', monospace" font-size="15" fill="#6E7781">React  ·  ASP.NET Core  ·  SQL Server  ·  Kotlin</text>
+    <g class="in d5">
+      <rect x="80" y="270" width="156" height="34" rx="17" fill="#FFFFFF" stroke="#D0D7DE"/>
+      <circle class="blink" cx="101" cy="287" r="5" fill="#1A7F37"/>
+      <text x="115" y="292" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="500" fill="#424A53">Open to work</text>
+      <rect x="248" y="270" width="200" height="34" rx="17" fill="#FFFFFF" stroke="#D0D7DE"/>
+      <text x="268" y="292" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="500" fill="#424A53">Estado de México, MX</text>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="339" rx="19.5" fill="none" stroke="#D0D7DE"/>
+</svg>
